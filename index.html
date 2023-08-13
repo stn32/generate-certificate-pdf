@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="css/style-cer.css" />
+  <link rel="stylesheet" media="print" href="css/media-print.css" />
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="certificate" id="certificate">
+    <!-- content src -->
+    <div class="conetn_src">
+      <input type="text" id="inputField_1" placeholder="Сумма:">
+      <input type="text" id="inputField_2" placeholder="Срок:">
+      <input type="text" id="inputField_3" placeholder="Номер:">
+      <button onclick="copyValue()">Добавить</button>
+    </div>
+
+    <!-- print area -->
+    <div class="content_area">
+      <div class="content_area_l">
+        <img src="https://fitpole-store.ru/wp-content/uploads/2019/11/logo.png" alt="logo">
+      </div>
+      <div class="content_area_r">
+        <div class="content_area_r_box">
+          <div class="content_area_r_1">Сумма: <span id="outputField_1"></span></div>
+          <div class="content_area_r_2">Срок: <span id="outputField_2"></span></div>
+          <div class="content_area_r_3">Номер: <span id="outputField_3"></span></div>  
+        </div>
+      </div>
+    </div>
+    <!-- print result -->
+    <input class="result_btn" type="button" onclick="printDiv('content_area')" value="Сохранить" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
