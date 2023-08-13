@@ -48,7 +48,9 @@
     flex-wrap: wrap !important;
     justify-content: space-between !important;
     width: 90% !important;
-    padding: 0 !important;
+    margin: 0 0 -4rem 0 !important;
+    padding: 0 0 4rem !important;
+    border-bottom: solid 1px #000 !important;
   }
   .content_area_r_box div {
     height: 40px !important;
