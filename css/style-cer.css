@@ -65,7 +65,9 @@ body, div, input, span, button {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
-  padding: 0;
+  margin: 0 0 -4rem 0;
+  padding: 0 0 4rem;
+  border-bottom: solid 1px #000;
 }
 .content_area_r_box div {
   height: 40px;
